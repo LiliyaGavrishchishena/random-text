@@ -15,4 +15,8 @@ const authorsList = [
   }
 ];
 
-console.log(authorsList);
+let activeAuthor = 0;
+
+const chatElement = document.querySelector('#chat');
+
+console.log(chatElement);
