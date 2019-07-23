@@ -18,5 +18,10 @@ const authorsList = [
 let activeAuthor = 0;
 
 const chatElement = document.querySelector('#chat');
+let randomAuthor = Math.floor(Math.random() * authorsList.length);
 
-console.log(chatElement);
+console.log(authorsList[randomAuthor]);
+let randomText = Math.random()
+  .toString(36)
+  .substr(2, 15);
+console.log(randomText);
